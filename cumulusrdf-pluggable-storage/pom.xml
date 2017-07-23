@@ -30,5 +30,6 @@
 	<modules>
 		<module>cumulusrdf-pluggable-storage-cassandra12x-hector-full-tp-index</module>
 		<module>cumulusrdf-pluggable-storage-cassandra2x-cql-full-tp-index</module>
+		<module>cumulusrdf-pluggable-storage-cassandra3x-cql-full-tp-index</module>
 	</modules>
 </project>

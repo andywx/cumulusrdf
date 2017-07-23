@@ -91,6 +91,21 @@
 				</dependency>
 			</dependencies>
 		</profile>
+		<profile>
+			<id>cassandra3x-cql-full-tp-index</id>
+			<properties>
+				<configuration.file>example-cumulusRDF-Cassandra-3.x.yaml</configuration.file>
+				<artifact.suffix>with-cassandra-3x</artifact.suffix>
+			</properties>
+			<dependencies>
+				<dependency>
+					<groupId>edu.kit.aifb</groupId>
+					<artifactId>cumulusrdf-pluggable-storage-cassandra3x-cql-full-tp-index</artifactId>
+					<version>${project.version}</version>
+					<scope>runtime</scope>
+				</dependency>
+			</dependencies>
+		</profile>
 	</profiles>
 	
 	<dependencies>

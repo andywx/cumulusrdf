@@ -182,6 +182,20 @@
 			</dependencies>
 		</profile>
 		<profile>
+			<id>cassandra3x-cql-full-tp-index</id>
+			<properties>
+				<cassandra.version>3.11.0</cassandra.version>
+			</properties>
+			<dependencies>
+				<dependency>
+					<groupId>edu.kit.aifb</groupId>
+					<artifactId>cumulusrdf-pluggable-storage-cassandra3x-cql-full-tp-index</artifactId>
+					<version>${project.version}</version>
+					<scope>runtime</scope>
+				</dependency>
+			</dependencies>
+		</profile>
+		<profile>
 			<id>tomcat7x</id>
 			<build>
 				<plugins>

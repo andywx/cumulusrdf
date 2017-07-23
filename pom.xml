@@ -104,6 +104,12 @@ CumulusRDF is licensed under GNU Affero General Public License.</description>
 				<cassandra.version>2.0.3</cassandra.version>
 			</properties>
 		</profile>
+		<profile>
+			<id>cassandra3x-cql-full-tp-index</id>
+			<properties>
+				<cassandra.version>3.11.0</cassandra.version>
+			</properties>
+		</profile>
 	</profiles>		
 	<build>
 		<plugins>

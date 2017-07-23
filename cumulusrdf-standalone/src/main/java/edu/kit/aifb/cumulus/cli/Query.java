@@ -51,6 +51,10 @@ public class Query extends Command {
 		SailRepositoryConnection con = null;
 		SailRepository repo = null;
 		try {
+			if (store.isOpen()) {
+				store.close();
+			}
+			
 			final CumulusRDFSail sail = new CumulusRDFSail(store);
 			sail.initialize();
 

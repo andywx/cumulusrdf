@@ -79,6 +79,17 @@
 				</dependency>
 			</dependencies>
 		</profile>
+		<profile>
+			<id>cassandra3x-cql-full-tp-index</id>
+			<dependencies>
+				<dependency>
+					<groupId>edu.kit.aifb</groupId>
+					<artifactId>cumulusrdf-pluggable-storage-cassandra3x-cql-full-tp-index</artifactId>
+					<version>${project.version}</version>
+					<scope>runtime</scope>
+				</dependency>
+			</dependencies>
+		</profile>
 	</profiles>	
 	<dependencies>
 		<dependency>
