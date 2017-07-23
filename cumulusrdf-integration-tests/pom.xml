@@ -117,7 +117,7 @@
             <plugin>
                 <groupId>io.teknek</groupId>
                 <artifactId>farsandra-maven-plugin</artifactId>
-                <version>0.0.8</version>
+                <version>0.0.9</version>
                 <configuration>
                     <version>${cassandra.version}</version>
                     <createConfigurationFiles>true</createConfigurationFiles>
@@ -141,7 +141,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>		
+            </plugin>
 			<plugin>
 				<artifactId>maven-failsafe-plugin</artifactId>
 				<version>2.6</version>
