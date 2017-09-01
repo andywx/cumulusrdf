@@ -73,7 +73,7 @@ storage-index-ranges: false
 # Note, if Cassandra 1.2.x is used, this field can also 
 # contain "<host>:<port>" entries (e.g., "localhost:9160").
 # Default value: "localhost".
-cassandra-hosts: "localhost"
+cassandra-hosts: "node01"
 
 # Keyspace in Cassandra cluster.
 # This is valid for Cassandra 1.2.x and Cassandra 2.x 

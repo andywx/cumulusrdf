@@ -35,7 +35,7 @@ else
 fi
 
 if [ $JAVA_FOUND -eq 1 ]; then
-	JAVA_VERSION_OK=`$JAVA -version 2>&1 | grep -E "^java version" | head -1 | sed 's/"//g' | cut -d" " -f 3 | sed 's/[.][0-9][0-9]*[0-9]*[_].*//' | awk -v n1=$JAVA_REQUIRED_VERSION '{ if ($1 >= n1) { print "OK"; } else { print "NOK"; } }'`
+	JAVA_VERSION_OK=`$JAVA -version 2>&1 | grep -E "^java version|^openjdk version" | head -1 | sed 's/"//g' | cut -d" " -f 3 | sed 's/[.][0-9][0-9]*[0-9]*[_].*//' | awk -v n1=$JAVA_REQUIRED_VERSION '{ if ($1 >= n1) { print "OK"; } else { print "NOK"; } }'`
 else
 	JAVA_VERSION_OK="NOK"
 fi

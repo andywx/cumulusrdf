@@ -177,5 +177,6 @@ CumulusRDF is licensed under GNU Affero General Public License.</description>
 		<module>cumulusrdf-web-module</module>
 		<module>cumulusrdf-standalone</module>
 		<module>cumulusrdf-integration-tests</module>
+		<module>cumulusrdf-loader</module>
 	</modules>
 </project>
